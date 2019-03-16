@@ -119,3 +119,141 @@ input:checked + .slider:before {
     padding-top: 2%;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.buttonSound {
+  width: 180px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-size: 20px;
+  padding: 20px 40px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #2bcbe7;
+  border: 1px solid #1a7c8d;
+  -webkit-box-shadow: 0px 6px 0px #1a7c8d, 0px 3px 15px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 6px 0px #1a7c8d, 0px 3px 15px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 6px 0px #1a7c8d, 0px 3px 15px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+
+.buttonSound:active {
+  background-color: rgb(118, 234, 255);
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: inset 0px 0px 50px 2px rgba(43, 203, 231, 0.72);
+  box-shadow: inset 0px 0px 50px 2px rgba(43, 203, 231, 0.72);
+}
+
+.buttonPressed {
+  background-color: rgb(118, 234, 255);
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: inset 0px 0px 50px 2px rgba(43, 203, 231, 0.72);
+  box-shadow: inset 0px 0px 50px 2px rgba(43, 203, 231, 0.72);
+}
+
+.letter {
+  color: #22a1b8;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-shadow: #52e5ff 0px 1px 0;
+}
+
+.letterTwo {
+  color: #b87c22;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-shadow: #ffba52 0px 1px 0;
+}
+
+.sound {
+  color: #22a1b8;
+  font-size: 13.5px;
+  padding: 0px;
+  text-shadow: #52e5ff 0px 1px 0;
+}
+
+.soundTwo {
+  color: #b87c22;
+  font-size: 13.5px;
+  padding: 0px;
+  text-shadow: #ffba52 0px 1px 0;
+}
+
+.buttonSoundTwo {
+  width: 180px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-size: 20px;
+  padding: 20px 40px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #eb9b24;
+  border: 1px solid #855611;
+  -webkit-box-shadow: 0px 6px 0px #855611, 0px 3px 15px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 6px 0px #855611, 0px 3px 15px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 6px 0px #855611, 0px 3px 15px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+
+.buttonSoundTwo:active {
+  background-color: rgb(255, 200, 118);
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: inset 0px 0px 50px 2px rgba(231, 143, 43, 0.72);
+  box-shadow: inset 0px 0px 50px 2px rgba(231, 143, 43, 0.72);
+}
+
+.buttonTwoPressed {
+  background-color: rgb(255, 200, 118);
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: inset 0px 0px 50px 2px rgba(231, 143, 43, 0.72);
+  box-shadow: inset 0px 0px 50px 2px rgba(231, 143, 43, 0.72);
+}
