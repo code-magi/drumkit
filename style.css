@@ -1,0 +1,121 @@
+body {
+  height: 100%;
+  background: rgba(240, 240, 240, 1);
+}
+
+.switchHolder {
+  padding-top: 10%;
+  padding-bottom: 2%;
+  text-align: center;
+  margin: auto;
+}
+
+.title {
+  font-family: Arial;
+  font-size: 40px;
+}
+
+#titleOne {
+  color: #2bcbe7;
+  text-shadow: #0b3e47 0px 1px 0;
+}
+
+#titleTwo {
+  color: #eb9b24;
+  text-shadow: #5f3d0a 0px 1px 0;
+}
+
+.switch {
+  margin: 15px;
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 35px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2bcbe7;
+  border: 1px solid #1a7c8d;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 3px 0px #1a7c8d, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0px 3px 0px #1a7c8d, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 3px 0px #1a7c8d, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 24px;
+  width: 24px;
+  left: 5px;
+  bottom: 6px;
+  background-color: rgb(243, 243, 243);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 3px 0px #979797, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0px 3px 0px #979797, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 3px 0px #979797, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+
+input:checked + .slider {
+  background-color: #eb9b24;
+  border: 1px solid #855611;
+  -webkit-box-shadow: 0px 3px 0px #855611, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0px 3px 0px #855611, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 3px 0px #855611, 0px 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+#button-holder-one {
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  #button-holder-one {
+    padding-top: 2%;
+  }
+}
+
+#button-holder-two {
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  #button-holder-two {
+    padding-top: 2%;
+  }
+}
