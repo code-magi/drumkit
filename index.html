@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="./main.js"></script>
+    <title>Drumkit</title>
+  </head>
+  <body>
+    <div class="switchHolder">
+      <h1 class="title" id="titleOne">Drum Kit 1</h1>
+      <h1 class="title hidden" id="titleTwo">Drum Kit 2</h1>
+      <label class="switch">
+        <input type="checkbox" onclick="changeKits()" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div id="button-holder-one">
+      <button class="buttonSound" id="Q" onclick="play(this.value)" value="Q">
+        <p class="letter">Q</p>
+        <p class="sound">(Clap)</p>
+      </button>
+      <button class="buttonSound" id="W" onclick="play(this.value)" value="W">
+        <p class="letter">W</p>
+        <p class="sound">(Crash)</p>
+      </button>
+      <button class="buttonSound" id="E" onclick="play(this.value)" value="E">
+        <p class="letter">E</p>
+        <p class="sound">(Ride)</p>
+      </button>
+      <button class="buttonSound" id="R" onclick="play(this.value)" value="R">
+        <p class="letter">R</p>
+        <p class="sound">(Kick)</p>
+      </button>
+      <button class="buttonSound" id="T" onclick="play(this.value)" value="T">
+        <p class="letter">T</p>
+        <p class="sound">(Snare)</p>
+      </button>
+      <button class="buttonSound" id="Y" onclick="play(this.value)" value="Y">
+        <p class="letter">Y</p>
+        <p class="sound">(Percussion)</p>
+      </button>
+      <button class="buttonSound" id="U" onclick="play(this.value)" value="U">
+        <p class="letter">U</p>
+        <p class="sound">(Closed Hi-hat)</p>
+      </button>
+      <button class="buttonSound" id="I" onclick="play(this.value)" value="I">
+        <p class="letter">I</p>
+        <p class="sound">(Open Hi-hat)</p>
+      </button>
+    </div>
+    <div id="button-holder-two" class="hidden">
+      <button
+        class="buttonSoundTwo"
+        id="Q2"
+        onclick="play(this.value)"
+        value="Q2"
+      >
+        <p class="letterTwo">Q</p>
+        <p class="soundTwo">(Clap)</p>
+      </button>
+      <button
+        class="buttonSoundTwo"
+        id="W2"
+        onclick="play(this.value)"
+        value="W2"
+      >
+        <p class="letterTwo">W</p>
+        <p class="soundTwo">(Crash)</p>
+      </button>
+      <button
+        class="buttonSoundTwo"
+        id="E2"
+        onclick="play(this.value)"
+        value="E2"
+      >
+        <p class="letterTwo">E</p>
+        <p class="soundTwo">(Ride)</p>
+      </button>
+      <button
+        class="buttonSoundTwo"
+        id="R2"
+        onclick="play(this.value)"
+        value="R2"
+      >
+        <p class="letterTwo">R</p>
+        <p class="soundTwo">(Kick)</p>
+      </button>
+      <button
+        class="buttonSoundTwo"
+        id="T2"
+        onclick="play(this.value)"
+        value="T2"
+      >
+        <p class="letterTwo">T</p>
+        <p class="soundTwo">(Snare)</p>
+      </button>
+      <button
+        class="buttonSoundTwo"
+        id="Y2"
+        onclick="play(this.value)"
+        value="Y2"
+      >
+        <p class="letterTwo">Y</p>
+        <p class="soundTwo">(Percussion)</p>
+      </button>
+      <button
+        class="buttonSoundTwo"
+        id="U2"
+        onclick="play(this.value)"
+        value="U2"
+      >
+        <p class="letterTwo">U</p>
+        <p class="soundTwo">(Closed Hi-hat)</p>
+      </button>
+      <button
+        class="buttonSoundTwo"
+        id="I2"
+        onclick="play(this.value)"
+        value="I2"
+      >
+        <p class="letterTwo">I</p>
+        <p class="soundTwo">(Open Hi-hat)</p>
+      </button>
+    </div>
+  </body>
+</html>
